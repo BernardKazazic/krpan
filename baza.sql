@@ -22,6 +22,16 @@ BEGIN
 END;
 GO
 
+CREATE PROCEDURE InsertKorisnik
+    @Ime NVARCHAR(100),
+    @Prezime NVARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Korisnici (Ime, Prezime)
+    VALUES (@Ime, @Prezime);
+END;
+GO
+
 CREATE PROCEDURE UpdateKorisnik
     @Id INT,
     @Ime NVARCHAR(100),
@@ -67,6 +77,15 @@ BEGIN
 END;
 GO
 
+CREATE PROCEDURE InsertProizvodjac
+    @Ime NVARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Proizvodjac (Ime)
+    VALUES (@Ime);
+END;
+GO
+
 CREATE PROCEDURE UpdateProizvodjac
     @Id INT,
     @Ime NVARCHAR(100)
@@ -87,7 +106,7 @@ BEGIN
 END;
 GO
 
-CREATE TABLE Artikli (
+CREATE TABLE Artikl (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Ime NVARCHAR(100),
     IdProizvodjaca INT,
@@ -100,21 +119,33 @@ CREATE PROCEDURE SelectAllArtikli
 AS
 BEGIN
     SELECT Id, Ime, IdProizvodjaca, DatumDolaska, Kolicina 
-    FROM Artikli;
+    FROM Artikl;
 END;
 GO
 
-CREATE PROCEDURE SelectArtikalById
+CREATE PROCEDURE SelectArtiklById
     @Id INT
 AS
 BEGIN
     SELECT Id, Ime, IdProizvodjaca, DatumDolaska, Kolicina 
-    FROM Artikli
+    FROM Artikl
     WHERE Id = @Id;
 END;
 GO
 
-CREATE PROCEDURE UpdateArtikal
+CREATE PROCEDURE InsertArtikl
+    @Ime NVARCHAR(100),
+    @IdProizvodjaca INT,
+    @DatumDolaska DATETIME,
+    @Kolicina INT
+AS
+BEGIN
+    INSERT INTO Artikl (Ime, IdProizvodjaca, DatumDolaska, Kolicina)
+    VALUES (@Ime, @IdProizvodjaca, @DatumDolaska, @Kolicina);
+END;
+GO
+
+CREATE PROCEDURE UpdateArtikl
     @Id INT,
     @Ime NVARCHAR(100),
     @IdProizvodjaca INT,
@@ -122,7 +153,7 @@ CREATE PROCEDURE UpdateArtikal
     @Kolicina INT
 AS
 BEGIN
-    UPDATE Artikli
+    UPDATE Artikl
     SET Ime = @Ime,
         IdProizvodjaca = @IdProizvodjaca,
         DatumDolaska = @DatumDolaska,
@@ -131,28 +162,27 @@ BEGIN
 END;
 GO
 
-CREATE PROCEDURE DeleteArtikal
+CREATE PROCEDURE DeleteArtikl
     @Id INT
 AS
 BEGIN
-    DELETE FROM Artikli
+    DELETE FROM Artikl
     WHERE Id = @Id;
 END;
 GO
 
 CREATE TABLE Izlaz (
     Id INT IDENTITY(1,1) PRIMARY KEY,
-    VrstaIzlaza NVARCHAR(100), -- Unutar firme, izvan firme
     Datum DATETIME,
     Kolicina INT,
     IdArtikla INT,
-    FOREIGN KEY (IdArtikla) REFERENCES Artikli(Id)
+    FOREIGN KEY (IdArtikla) REFERENCES Artikl(Id)
 );
 
 CREATE PROCEDURE SelectAllIzlaz
 AS
 BEGIN
-    SELECT Id, VrstaIzlaza, Datum, Kolicina, IdArtikla
+    SELECT Id, Datum, Kolicina, IdArtikla
     FROM Izlaz;
 END;
 GO
@@ -161,23 +191,32 @@ CREATE PROCEDURE SelectIzlazById
     @Id INT
 AS
 BEGIN
-    SELECT Id, VrstaIzlaza, Datum, Kolicina, IdArtikla
+    SELECT Id, Datum, Kolicina, IdArtikla
     FROM Izlaz
     WHERE Id = @Id;
 END;
 GO
 
+CREATE PROCEDURE InsertIzlaz
+    @Datum DATETIME,
+    @Kolicina INT,
+    @IdArtikla INT
+AS
+BEGIN
+    INSERT INTO Izlaz (Datum, Kolicina, IdArtikla)
+    VALUES (@Datum, @Kolicina, @IdArtikla);
+END;
+GO
+
 CREATE PROCEDURE UpdateIzlaz
     @Id INT,
-    @VrstaIzlaza NVARCHAR(100),
     @Datum DATETIME,
     @Kolicina INT,
     @IdArtikla INT
 AS
 BEGIN
     UPDATE Izlaz
-    SET VrstaIzlaza = @VrstaIzlaza,
-        Datum = @Datum,
+    SET Datum = @Datum,
         Kolicina = @Kolicina,
         IdArtikla = @IdArtikla
     WHERE Id = @Id;
@@ -199,7 +238,7 @@ CREATE TABLE Ulaz (
     IdArtikla INT,
     Kolicina INT,
     IdProizvodjaca INT,
-    FOREIGN KEY (IdArtikla) REFERENCES Artikli(Id),
+    FOREIGN KEY (IdArtikla) REFERENCES Artikl(Id),
     FOREIGN KEY (IdProizvodjaca) REFERENCES Proizvodjac(Id)
 );
 
@@ -218,6 +257,18 @@ BEGIN
     SELECT Id, Datum, IdArtikla, Kolicina, IdProizvodjaca
     FROM Ulaz
     WHERE Id = @Id;
+END;
+GO
+
+CREATE PROCEDURE InsertUlaz
+    @Datum DATETIME,
+    @IdArtikla INT,
+    @Kolicina INT,
+    @IdProizvodjaca INT
+AS
+BEGIN
+    INSERT INTO Ulaz (Datum, IdArtikla, Kolicina, IdProizvodjaca)
+    VALUES (@Datum, @IdArtikla, @Kolicina, @IdProizvodjaca);
 END;
 GO
 

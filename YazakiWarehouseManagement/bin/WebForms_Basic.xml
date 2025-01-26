@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+YazakiWarehouseManagement
+</name>
+</assembly>
+<members>
+<member name="T:YazakiWarehouseManagement.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:YazakiWarehouseManagement.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:YazakiWarehouseManagement.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:YazakiWarehouseManagement.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:YazakiWarehouseManagement.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:YazakiWarehouseManagement.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._artikliTable">
+<summary>
+artikliTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._btnAddNew">
+<summary>
+btnAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._newArtiklForm">
+<summary>
+newArtiklForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._ddlProizvodjac">
+<summary>
+ddlProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._txtDatumDolaska">
+<summary>
+txtDatumDolaska control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._btnSubmitNewArtikl">
+<summary>
+btnSubmitNewArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Artikl._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblArtiklId">
+<summary>
+lblArtiklId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblProizvodjac">
+<summary>
+lblProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblDatumDolaska">
+<summary>
+lblDatumDolaska control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteArtikl._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._lblIzlazId">
+<summary>
+lblIzlazId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._lblDatum">
+<summary>
+lblDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._lblArtikl">
+<summary>
+lblArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteIzlaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._lblUserId">
+<summary>
+lblUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._lblPrezime">
+<summary>
+lblPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteKorisnik._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteProizvodjac._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteProizvodjac._lblProizvodjacId">
+<summary>
+lblProizvodjacId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteProizvodjac._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteProizvodjac._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteProizvodjac._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblUlazId">
+<summary>
+lblUlazId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblDatum">
+<summary>
+lblDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblArtikl">
+<summary>
+lblArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._lblProizvodjac">
+<summary>
+lblProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.DeleteUlaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblId">
+<summary>
+lblId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblArtiklId">
+<summary>
+lblArtiklId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblProizvodjac">
+<summary>
+lblProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._ddlProizvodjac">
+<summary>
+ddlProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblDatumDolaska">
+<summary>
+lblDatumDolaska control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._txtDatumDolaska">
+<summary>
+txtDatumDolaska control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._btnUpdate">
+<summary>
+btnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditArtikl._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._lblId">
+<summary>
+lblId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._lblIzlazId">
+<summary>
+lblIzlazId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._lblDatum">
+<summary>
+lblDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._txtDatum">
+<summary>
+txtDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._lblArtikl">
+<summary>
+lblArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._ddlArtikl">
+<summary>
+ddlArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._btnUpdate">
+<summary>
+btnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditIzlaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._lblId">
+<summary>
+lblId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._lblUserId">
+<summary>
+lblUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._lblPrezime">
+<summary>
+lblPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._txtPrezime">
+<summary>
+txtPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._btnUpdate">
+<summary>
+btnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditKorisnik._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._lblId">
+<summary>
+lblId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._lblProizvodjacId">
+<summary>
+lblProizvodjacId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._lblIme">
+<summary>
+lblIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._btnUpdate">
+<summary>
+btnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditProizvodjac._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblId">
+<summary>
+lblId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblUlazId">
+<summary>
+lblUlazId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblDatum">
+<summary>
+lblDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._txtDatum">
+<summary>
+txtDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblArtikl">
+<summary>
+lblArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._ddlArtikl">
+<summary>
+ddlArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblKolicina">
+<summary>
+lblKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._lblProizvodjac">
+<summary>
+lblProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._ddlProizvodjac">
+<summary>
+ddlProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._btnUpdate">
+<summary>
+btnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.EditUlaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._izlazTable">
+<summary>
+izlazTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._btnAddNew">
+<summary>
+btnAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._newIzlazForm">
+<summary>
+newIzlazForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._txtDatum">
+<summary>
+txtDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._ddlArtikl">
+<summary>
+ddlArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._btnSubmitNewIzlaz">
+<summary>
+btnSubmitNewIzlaz control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Izlaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._korisniciTable">
+<summary>
+korisniciTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._btnAddNew">
+<summary>
+btnAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._newUserForm">
+<summary>
+newUserForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._txtPrezime">
+<summary>
+txtPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._btnSubmitNewUser">
+<summary>
+btnSubmitNewUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Korisnik._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._proizvodjacTable">
+<summary>
+proizvodjacTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._btnAddNew">
+<summary>
+btnAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._newProizvodjacForm">
+<summary>
+newProizvodjacForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._btnSubmitNewProizvodjac">
+<summary>
+btnSubmitNewProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Proizvodjac._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._ulazTable">
+<summary>
+ulazTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._btnAddNew">
+<summary>
+btnAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._newUlazForm">
+<summary>
+newUlazForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._txtDatum">
+<summary>
+txtDatum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._ddlArtikl">
+<summary>
+ddlArtikl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._txtKolicina">
+<summary>
+txtKolicina control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._ddlProizvodjac">
+<summary>
+ddlProizvodjac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._btnSubmitNewUlaz">
+<summary>
+btnSubmitNewUlaz control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Ulaz._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:YazakiWarehouseManagement.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
